@@ -9,7 +9,6 @@ RUN apk add --update \
     python-dev \
     py-pip \
     build-base \
-  && pip install virtualenv \
   && rm -rf /var/cache/apk/*
 WORKDIR /
 EXPOSE 8000
